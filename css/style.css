@@ -1,0 +1,16 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+  }
+  #heading-icon{
+      width: 150px;
+      height: 150px;
+      display: inline;
+  }
+  #heading-div{
+      display: inline;
+  }
+  #header{
+      display: inline;
+  }
