@@ -2,15 +2,23 @@
     -webkit-box-sizing: border-box; 
     -moz-box-sizing: border-box; 
     box-sizing: border-box;
-  }
-  #heading-icon{
-      width: 150px;
-      height: 150px;
-      display: inline;
-  }
-  #heading-div{
-      display: inline;
-  }
-  #header{
-      display: inline;
-  }
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.header-div{
+    display: inline;
+}
+#header-icon{
+    position: relative;
+    display: inline;
+    width: 150px;
+    height: 150px;
+    top: 10px;
+}
+#header-title{
+    position: relative;
+    display: inline;
+    bottom: 60px;
+}
